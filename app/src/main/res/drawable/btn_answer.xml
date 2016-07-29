@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:state_pressed="false"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/atp__activity_player_layout_play_answer_background_selected"/>
+</selector>

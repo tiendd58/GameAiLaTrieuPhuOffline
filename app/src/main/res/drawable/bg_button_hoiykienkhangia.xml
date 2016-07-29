@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:drawable="@drawable/atp__activity_player_button_image_help_audience_active"
+            android:state_enabled="true"
+            android:state_pressed="true"/>
+    <item
+            android:drawable="@drawable/atp__activity_player_button_image_help_audience"
+            android:state_enabled="true"
+            android:state_pressed="false"/>
+    <item
+            android:drawable="@drawable/atp__activity_player_button_image_help_audience_x"
+            android:state_enabled="false"/>
+    <item
+            android:drawable="@drawable/atp__activity_player_button_image_help_audience"
+            android:state_enabled="true"/>
+</selector>
